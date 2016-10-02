@@ -1,0 +1,44 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="{{ site.baseurl }}">
+          Tim Yanchen Wang{{ site.title }}
+        </a>
+      </h1>
+      <p class="lead">{ frontend developer }<br>{ digital consultant }<br>{ maker }
+      </p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+
+      {% comment %}
+        The code below dynamically generates a sidebar nav of pages with
+        `layout: page` in the front-matter. See readme for usage.
+
+        It's matching against the layout specified at the top of the pages
+        or node.layout == "about"
+      {% endcomment %}
+
+      {% assign pages_list = site.pages %}
+      {% for node in pages_list %}
+        {% if node.title != null %}
+          {% if node.layout == "page" %}
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}     
+    </nav>
+
+      <div class="social-icons">
+        <a href="https://twitter.com/besttimyouknow" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://github.com/Xenoxo" target="_blank"><i class="fa fa-github"></i></a>
+        <a href="www.linkedin.com/in/timyanchenwang" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="www.linkedin.com/in/timyanchenwang" target="_blank"><i class="fa fa-medium"></i></a>
+        <a href="mailto:info@timyanchenwang.com" target="_blank"><i class="fa fa-envelope-o"></i></a>        
+      </div>      
+
+    <!-- <p class="fine-print">&copy; {{ site.time | date: '%Y' }} All rights reserved.</p> -->
+  </div>
+</div>
