@@ -3,7 +3,7 @@ layout: post
 title: First Post
 ---
 
-Over the past three days here in Poland, I've been hacking away at this site. I think it was important to have a "good enougb goal when I started"
+Over the past three days, I've been hacking away at this site. I think it was important to have a "good enougb goal when I started"
 
 This site is built using Jekyll and the theme "hyde". The most gruelling work was actually getting the css to behave with the layout I wanted.
 
