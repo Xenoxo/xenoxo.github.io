@@ -7,9 +7,9 @@ permalink:        pretty
 # relative_permalinks: true
 
 # Setup
-title:            ''
-tagline:          'Tim Yanchen Wang'
-description:      ''
+title:            'Tim Yanchen Wang'
+tagline:          'Digital Maker'
+description:      'Personal site for Tim Yanchen Wang'
 url:              http://www.timyanchenwang.com
 baseurl:          /
 
