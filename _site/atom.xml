@@ -4,7 +4,7 @@
  <title>Tim Yanchen Wang</title>
  <link href="http://www.timyanchenwang.com/atom.xml" rel="self"/>
  <link href="http://www.timyanchenwang.com/"/>
- <updated>2016-10-02T14:15:00+02:00</updated>
+ <updated>2016-10-02T14:29:02+02:00</updated>
  <id>http://www.timyanchenwang.com</id>
  <author>
    <name>Tim Yanchen Wang</name>
@@ -17,11 +17,11 @@
    <link href="http://www.timyanchenwang.com/2016/09/30/first-post/"/>
    <updated>2016-09-30T00:00:00+02:00</updated>
    <id>http://www.timyanchenwang.com/2016/09/30/first-post</id>
-   <content type="html">&lt;p&gt;Over the past three days, I&amp;#39;ve been hacking away at this site. I think it was important to have a &amp;quot;good enougb goal when I started&amp;quot;&lt;/p&gt;
+   <content type="html">&lt;p&gt;Over the past three days, I’ve been hacking away at this site. I think it was important to have a “good enougb goal when I started”&lt;/p&gt;
 
-&lt;p&gt;This site is built using Jekyll and the theme &amp;quot;hyde&amp;quot;. The most gruelling work was actually getting the css to behave with the layout I wanted.&lt;/p&gt;
+&lt;p&gt;This site is built using Jekyll and the theme “hyde”. The most gruelling work was actually getting the css to behave with the layout I wanted.&lt;/p&gt;
 
-&lt;p&gt;This site is considered &amp;quot;done&amp;quot; for now as I move onto other projects. However, I will set aside time to continue improvement on this as time goes on.&lt;/p&gt;
+&lt;p&gt;This site is considered “done” for now as I move onto other projects. However, I will set aside time to continue improvement on this as time goes on.&lt;/p&gt;
 </content>
  </entry>
  
