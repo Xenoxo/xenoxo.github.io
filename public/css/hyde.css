@@ -358,9 +358,30 @@ a.sidebar-nav-item:focus {
   padding: 0px 0px 30px 0px;
   margin: 0px 0px 15px 0px;
   float: left;
-/*  display: flex;
-  align-items: center;*/
-  /*justify-content:s;*/
+}
+
+.project-item-header {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: "sumana", serif;
+}
+.project-item-header p{
+  font-family:"PT Sans", Helvetica, Arial, sans-serif;
+  margin-bottom: .25rem;
+  color:#202020;
+}
+
+.project-name {
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.project-launch {
+  font-weight: 100;
+  font-size: 1rem;
+  text-align: bottom;
 }
 
 .project-image {
@@ -375,12 +396,6 @@ a.sidebar-nav-item:focus {
 }
 .project-description {
   font-size: .8rem;
-
-}
-
-.project-item h2{
-  margin-bottom: 15px;
-  font-family: "sumana", serif;
 
 }
 
