@@ -411,10 +411,12 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/timwang/GitHub/xenoxo.github.io"
+		"/Users/timwang/GitHub/xenoxo.github.io",
+		"/Users/timwang/GitHub/xenoxo.github.io/_includes"
 	],
 	"file_history":
 	[
+		"/Users/timwang/GitHub/xenoxo.github.io/_includes/head.html",
 		"/Users/timwang/GitHub/ohmmi/CountdownTimer.js",
 		"/Users/timwang/GitHub/ohmmi/Dashboard.js",
 		"/Users/timwang/GitHub/ohmmi/package.json",
@@ -541,8 +543,7 @@
 		"/Users/timwang/GitHub/gitfight/app/utils/githubHelpers.js",
 		"/Users/timwang/GitHub/gitfight/app/config/routes.js",
 		"/Users/timwang/GitHub/gitfight/app/containers/PromptContainer.js",
-		"/Users/timwang/GitHub/gitfight/app/styles/index.js",
-		"/Users/timwang/GitHub/gitfight/app/components/UserDetailsWrapper.js"
+		"/Users/timwang/GitHub/gitfight/app/styles/index.js"
 	],
 	"find":
 	{
@@ -1050,7 +1051,7 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 182.0,
 	"status_bar_visible": true,
 	"template_settings":

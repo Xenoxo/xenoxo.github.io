@@ -204,7 +204,7 @@ a.sidebar-nav-item:focus {
 }
 
 .about-page p{
-  font-style: italic;
+  /*font-style: italic;*/
   font-size: 1rem;
 }
 
