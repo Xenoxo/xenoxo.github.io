@@ -75,6 +75,20 @@ html {
   color: #fff;
 }
 
+/* My homepage tagline div */
+.tagline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.25rem 0 .5rem 0;
+}
+
+.tagline p {
+  /*line-height: 1rem;*/
+  margin-right: .5rem;
+  /*align-content: center;*/
+}
+
 /* About Header */
 .sidebar-about h1 {
   color: #fff;
