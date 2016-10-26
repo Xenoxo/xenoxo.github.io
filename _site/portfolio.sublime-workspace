@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
 				"Native",
 				"TouchableNativeFeedback"
 			],
@@ -248,10 +256,6 @@
 				"className"
 			],
 			[
-				"margin",
-				"margin-left"
-			],
-			[
 				"wid",
 				"width"
 			],
@@ -412,10 +416,20 @@
 	"expanded_folders":
 	[
 		"/Users/timwang/GitHub/xenoxo.github.io",
-		"/Users/timwang/GitHub/xenoxo.github.io/_includes"
+		"/Users/timwang/GitHub/xenoxo.github.io/_includes",
+		"/Users/timwang/GitHub/xenoxo.github.io/_layouts",
+		"/Users/timwang/GitHub/xenoxo.github.io/public/css"
 	],
 	"file_history":
 	[
+		"/Users/timwang/GitHub/xenoxo.github.io/public/css/hyde.css",
+		"/Users/timwang/GitHub/xenoxo.github.io/_layouts/page.html",
+		"/Users/timwang/GitHub/xenoxo.github.io/projects.md",
+		"/Users/timwang/GitHub/xenoxo.github.io/404.html",
+		"/Users/timwang/GitHub/xenoxo.github.io/_includes/sidebar.html",
+		"/Users/timwang/GitHub/xenoxo.github.io/about.md",
+		"/Users/timwang/GitHub/xenoxo.github.io/index.html",
+		"/Users/timwang/GitHub/xenoxo.github.io/public/css/poole.css",
 		"/Users/timwang/GitHub/xenoxo.github.io/_includes/head.html",
 		"/Users/timwang/GitHub/ohmmi/CountdownTimer.js",
 		"/Users/timwang/GitHub/ohmmi/Dashboard.js",
@@ -535,19 +549,11 @@
 		"/Users/timwang/GitHub/gitfight/webpack.config.js",
 		"/Users/timwang/GitHub/gitfight/app/components/MainContainer.js",
 		"/Users/timwang/GitHub/gitfight/app/components/Home.js",
-		"/Users/timwang/GitHub/gitfight/app/containers/ConfirmBattleContainer.js",
-		"/Users/timwang/GitHub/gitfight/app/components/ConfirmBattle.js",
-		"/Users/timwang/GitHub/gitfight/app/components/Results.js",
-		"/Users/timwang/GitHub/gitfight/app/components/Loading.js",
-		"/Users/timwang/GitHub/gitfight/app/containers/ResultsContainer.js",
-		"/Users/timwang/GitHub/gitfight/app/utils/githubHelpers.js",
-		"/Users/timwang/GitHub/gitfight/app/config/routes.js",
-		"/Users/timwang/GitHub/gitfight/app/containers/PromptContainer.js",
-		"/Users/timwang/GitHub/gitfight/app/styles/index.js"
+		"/Users/timwang/GitHub/gitfight/app/containers/ConfirmBattleContainer.js"
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -561,6 +567,24 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"oswald",
+			"flex",
+			"flex\t",
+			"flex",
+			"mobile",
+			"lead",
+			"^p",
+			"p$",
+			"[0]",
+			"/^t/",
+			"/^p/",
+			"/p/",
+			"sidebar",
+			"p",
+			".lead",
+			"adjust",
+			"flex",
+			"tagline",
 			"tickrate",
 			"this.tick()",
 			"tickrate",
@@ -670,30 +694,12 @@
 			"subsc",
 			"console",
 			"this is",
-			"prop",
-			"subscr",
-			"riddle",
-			"toggleanswer",
-			"delete",
-			"toggleshow",
-			"return",
-			"hasinteracted",
-			"toggleshow",
-			"showAnswer",
-			"riddleanswer",
-			"riddles.upvote",
-			"riddles",
-			"riddle",
-			"currentUser",
-			"current",
-			"riddlelist",
-			"currentUser",
-			"currentuser"
+			"prop"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
 		],
@@ -759,6 +765,18 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"hyd",
+				"public/css/hyde.css"
+			],
+			[
+				"poo",
+				"public/css/poole.css"
+			],
+			[
+				"side",
+				"_includes/sidebar.html"
+			],
 			[
 				"med",
 				"MeditationTimerScene.js"
