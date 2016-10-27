@@ -171,8 +171,9 @@ header .header-content .header-content-inner {
 }
 header .header-content .header-content-inner h1 {
   margin-top: 0;
-  margin-bottom: 30px;
-  font-size: 30px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-weight: 700;
 }
 header .header-content .header-content-inner .list-badges {
   margin-bottom: 25px;
@@ -205,7 +206,7 @@ header .device-container .screen img {
     transform: translateY(-50%);
   }
   header .header-content .header-content-inner h1 {
-    font-size: 35px;
+    font-size: 50px;
   }
   header .device-container {
     max-width: none;
@@ -225,9 +226,32 @@ section h2 {
   font-size: 50px;
 }
 section.download {
+    position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url('../img/bg-bells.jpg');
+  background-repeat: no-repeat;
   padding: 150px 0;
   position: relative;
 }
+
+section.download .download-content {
+  position: relative;
+  z-index: 1;
+}
+
+section.download .overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 section.download h2 {
   margin-top: 0;
   font-size: 50px;
@@ -284,8 +308,8 @@ section.features .feature-item h3 {
 }
 section.features .feature-item i {
   font-size: 80px;
-  background: -webkit-linear-gradient(to left, #03A9F4, #dc2430);
-  background: linear-gradient(to left, #03A9F4, #dc2430);
+  background: -webkit-linear-gradient(to left, #689F38, #0288D1);
+  background: linear-gradient(to left, #689F38, #0288D1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -377,11 +401,21 @@ footer {
 }
 footer p {
   font-size: 12px;
+  color: rgba(255, 255, 255, 0.3);
   margin: 0;
 }
+
+footer a:hover,
+footer a:focus,
+footer a:active,
+footer a.active {
+  text-decoration: none;
+}
+
 footer ul {
   margin-bottom: 0;
 }
+
 footer ul li a {
   font-size: 12px;
   color: rgba(255, 255, 255, 0.3);
@@ -392,6 +426,7 @@ footer ul li a:active,
 footer ul li a.active {
   text-decoration: none;
 }
+
 .bg-primary {
   background: #fdcc52;
   background: -webkit-linear-gradient(#fdcc52, #fdc539);

@@ -17,6 +17,8 @@ author:
   name:           'Tim Yanchen Wang'
   url:            https://twitter.com/besttimyouknow
 
+sass:
+  cache: false
 
 gems:
   - jekyll-paginate
