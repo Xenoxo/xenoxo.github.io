@@ -30,10 +30,19 @@ a {
   transition: all 0.35s;
   color: #03A9F4;
 }
-a:hover,
+/*a:hover,
 a:focus {
   color: #fcbd20;
+}*/
+
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+  text-decoration: none;
 }
+
 hr {
   max-width: 100px;
   margin: 25px auto 0;
@@ -314,6 +323,7 @@ section.features .feature-item i {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 @media (min-width: 992px) {
   section.features .device-container,
   section.features .feature-item {
