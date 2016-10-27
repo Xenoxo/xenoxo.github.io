@@ -151,11 +151,11 @@ header {
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-  background: url("../img/bg-dimension.png"), #7b4397;
+  background: url("../img/bg-dimension.png"), #283593;
   /* fallback for old browsers */
-  background: url("../img/bg-dimension.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-dimension.png"), -webkit-linear-gradient(to left, #558B2F, #283593);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: url("../img/bg-dimension.png"), linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-dimension.png"), linear-gradient(to left, #558B2F, #283593);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
 }
@@ -284,8 +284,8 @@ section.features .feature-item h3 {
 }
 section.features .feature-item i {
   font-size: 80px;
-  background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
-  background: linear-gradient(to left, #7b4397, #dc2430);
+  background: -webkit-linear-gradient(to left, #03A9F4, #dc2430);
+  background: linear-gradient(to left, #03A9F4, #dc2430);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
