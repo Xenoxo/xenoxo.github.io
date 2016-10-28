@@ -391,6 +391,10 @@ a.sidebar-nav-item:focus {
   margin:0px 20px 10px 0px;
 }
 
+.ohmmi{
+  width:35%;
+}
+
 .project-content {
   display: flex;
 }
@@ -402,6 +406,7 @@ a.sidebar-nav-item:focus {
 .project-skills {
   float: left;
   width: 100%;
+  margin-top: 10px;
 }
 
 .project-skills span{

@@ -14,7 +14,7 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">About Me</a>
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">About</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -31,7 +31,8 @@
             <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
           {% endif %}
         {% endif %}
-      {% endfor %}     
+      {% endfor %}
+      <a class="sidebar-nav-item" href="https://blog.timyanchenwang.com" target="_blank">Blog</i></a>
     </nav>
 
       <div class="social-icons">
