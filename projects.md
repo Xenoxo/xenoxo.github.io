@@ -15,7 +15,7 @@ title: Projects
 				</p>
 				<p class="project-launch">November, 2016</p>
 			</div>
-			<img class="project-image ohmmi" src="/images/projects/ohmmi/ezgif.com-resize.gif"></img>
+			<img class="project-image ohmmi" src="/images/projects/ohmmi/ezgif.com-resize.gif"/>
 			<div class="project-description">
 				<p><em>"Ohmmi is a no frills meditation timer that gives the users a pleasant and simple experience for practicing mindful meditation."</em></p>
 				<p>This project was my answer to having forgotten the login password of a meditation app that I used at the time. Wanting to create a simple experience that gets right to the point, I set out to build an android app that I would enjoy using.</p>
@@ -49,7 +49,7 @@ title: Projects
 				<p class="project-launch">September, 2016</p>
 			</div>
 			<!-- <img class="project-image ohmmi" src="/images/projects/ohmmi/ezgif.com-resize.gif"></img> -->
-			<img class="project-image" src="/images/projects/riddlemethis.png"></img>
+			<img class="project-image" src="/images/projects/riddlemethis.png"/>
 			
 			<div class="project-description">
 				<p><em>Riddlemethis is a web app built with Meteor, MongoDB and React. It's built as a place to solve, share and find new riddles. This project was inspired during my reading of Stephen King's The Dark Tower series.</em></p>
@@ -67,8 +67,7 @@ title: Projects
 				<i class="devicon-css3-plain"></i>
 				<i class="devicon-javascript-plain colored"></i>
 			</div>
-
-		</div>		
+		</div>
 
 
 		<!-- timyanchenwang.com -->
@@ -79,7 +78,7 @@ title: Projects
 				</p>
 				<p class="project-launch">August, 2016</p>
 			</div>
-			<img class="project-image" src="/images/projects/tyw.com.png"></img>
+			<img class="project-image" src="/images/projects/tyw.com.png"/>
 			<div class="project-description">
 				<p>Revamping my personal site with github pages; using jekyll and, the very aptly named theme, <a href="https://jekyllthemes.io/theme/8068127/hyde">"hyde"</a>.</p>
 
@@ -101,7 +100,7 @@ title: Projects
 				<p class="project-name"><i class="fa fa-code" aria-hidden="true"></i> tweetcost.com</p>
 				<p class="project-launch">September, 2015</p>
 			</div>
-			<img class="project-image" src="/images/projects/tweetcost.png"></img>
+			<img class="project-image" src="/images/projects/tweetcost.png"/>
 		
 			<div class="project-description">
 				<p>A web app experiment to keep track of my personal finances by openly sharing it with the world. Tweetcost was a single-page-app that featured a large counter which would update every 2 minutes.</p>
