@@ -44,7 +44,7 @@ title: Projects
 			
 			<div class="project-item-header">
 				<p class="project-name">
-					<a href="http://riddlemethis.xyz" target="_blank"><i class="fa fa-code"></i> Riddle Me This</a>
+					<a href="http://riddlemethis.xyz" target="_blank"><i class="fa fa-code"></i> riddlemethis</a>
 				</p>
 				<p class="project-launch">September, 2016</p>
 			</div>
@@ -52,9 +52,10 @@ title: Projects
 			<img class="project-image" src="/images/projects/riddlemethis.png"></img>
 			
 			<div class="project-description">
-				<p><em>Riddle Me This is a web app built with Meteor, MongoDB and React. It's built as a place to solve, share and find new riddles. This project was largely inspired during my reading of Stephen King's The Dark Tower series.</em></p>
-				<p>The app's features a toggle upvote system as well as an answer validation system. All data is stored in collections in MongoDB</p>
-				<p><a href="http://riddlemethis.xyz" target="_blank"><strong>riddlemethis is live now, so go check it out!</strong></a></p>
+				<p><em>Riddlemethis is a web app built with Meteor, MongoDB and React. It's built as a place to solve, share and find new riddles. This project was inspired during my reading of Stephen King's The Dark Tower series.</em></p>
+				<p>The source code for the app is open source and can be found <a href="https://github.com/Xenoxo/riddlemethis" target="_blank"><strong>here.</strong></a></p>
+				<p>The app features a toggle upvote system as well as an answer validation system. All data are stored in collections in MongoDB</p>
+				<p><a href="http://riddlemethis.xyz" target="_blank"><strong>Riddlemethis is live now, so go check it out!</strong></a></p>
 			</div>
 
 			<div class="project-skills">
