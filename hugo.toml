@@ -1,0 +1,4 @@
+baseURL = 'https://fiftytwoplusone.com'
+languageCode = 'en-us'
+title = 'Fiftytwo Plus One'
+theme = 'ananke'
