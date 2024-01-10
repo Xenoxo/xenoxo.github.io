@@ -1,12 +1,12 @@
 ---
-title: "My First Post"
+title: "Week 00"
 date: 2024-01-04T17:23:09+01:00
 draft: false
 ---
 
-# Week 00
+# Something something new beginnings...
 
-The intention of this blog is to mainly serve as a way for me to keep myself on track this year. While I don't have a detailed fleshed out goal for this year (yet), I know that spending a meaningful amount of time on game development will be one of them.
+The intention of this blog is to mainly serve as a way for me to keep myself on track this year for my game development efforts. While I don't have a detailed fleshed goals for this year (yet), I know that spending a meaningful amount of time on game development will be one of them.
 
 Each post will provide an update about the progress I've made in the past week both at a high level, and if encountering something particularly interesting during development, likely involve a deeper techincal dive.
 
@@ -20,4 +20,4 @@ The course was quite a good dive into Unreal Engine and more importantly, the C+
 
 So what game am I making? Well for now, I think I'll go ahead with building a simple 3rd person shooter. This should allow me to utilize most of the learnings throughout the course as well as add some funcitonality of my own. 
 
-Let's see how it goes! Here is some text
+Let's see how it goes!
