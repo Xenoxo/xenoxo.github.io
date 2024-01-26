@@ -3,7 +3,6 @@ title: "Week 01"
 date: 2024-01-10T20:58:44+01:00
 draft: false
 ---
-
 # Hitting the Ground Crawling
 
 This post is late due to work related delays (in the future I'll have something out each Sunday), but I'm commited to writing a post a week so here's me shoehorning one in.

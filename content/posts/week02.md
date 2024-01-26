@@ -3,7 +3,6 @@ title: "Week 02"
 date: 2024-01-16T19:46:13+01:00
 draft: false
 ---
-
 # Why am I like this?
 
 You know, it's funny. I was unemployed for more than half the year in 2023.
