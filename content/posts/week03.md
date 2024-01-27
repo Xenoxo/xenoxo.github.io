@@ -26,3 +26,5 @@ However, I know there are areas in which I still lack greatly. One major area is
 I don't know why but I really have an issue creating posts on Sundays - I think there's some underlying notion that I doni't feel like I've done enough to share; and though this might be true (it's not) it doesn't mean I shouldn't share something. What matters here is consistency.
 
 During the week I had a catchup with an old colleague of mine and we got into the discussion of my Unreal Engine tinkering. Specifically I bemoaned the fact that I truly squandered my "free time" all those months of being unemployed, however I don't feel bad about it because my drive to develop a game and spend time on my other projects is only possible because I have a job again.
+
+Until next time!
