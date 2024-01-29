@@ -9,7 +9,7 @@ Well this post is a tad (5 days) late. That said, I'm still keeping to the 1 pos
 
 ## Game Progress
 I've worked through several "features" since the last post.
-{{<youtube ZasJBBd0YQM>}}
+{{<youtube o0zc4FOrsrM>}}
 There's a lot going on here, so let me break it down.
 - When the player shoots, there is now bullet spread as indicated by the red lines that are temporarily drawn (I made the bullet travel slow to help visualize better)
 - The bullet direction of the tracer bullet correctly moves towards where the camera points (or if nothing, then it'll travel to the end of the trace)
