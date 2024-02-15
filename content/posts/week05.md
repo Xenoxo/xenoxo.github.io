@@ -13,6 +13,8 @@ In these times, I try to remember and look back to see how far I've traveled. An
 # Game Updates
 This past week and some-odd days saw me focus on AI. Not the generative kind, but the videogame "enemy" kinds.
 
+{{<youtube LRwNSWoRUv0>}}
+
 I was able to get the enemy to "see" the player using the built in AIPerception class. Additionally, I created some basic follow and attack behavior. 
 
 I also took a foray into BehaviorTrees and the associated systems. I know I'll need to go deep into that area one day, I decided that as a matter of getting some sort of game out, I'll hold off and implement my AI in more crude ways.
