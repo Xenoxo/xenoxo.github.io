@@ -18,7 +18,7 @@ A relatively large milestone achieved this week. I was able to follow a youtube 
 
 At this point I actually have the system written in Blueprints, however there are major pieces of it I don't fully understand. So my intention is to translate all this into c++, and by doing so, familiarize myself with the pieces.
 
-{{<youtube LRwNSWoRUv0>}}
+{{<youtube 4gVku4Cnlys>}}
 
 The most complicated part has actually been handling how the zombie will move towards the player. After following a great tutorial on this exact idea, I was finally able to solve the problem I had around trying to get the enemy to move at the player in a "reasonable" way.
 
