@@ -1,4 +1,4 @@
-s---
+---
 title: "Week 06"
 date: 2024-02-15T20:22:33+01:00
 draft: false
