@@ -1,5 +1,3 @@
 Repo for my dev blog.
 
-Deployed with Hugo and Github pages.
-
-A post a week leaves the world for the meek.
+Why does it feel like I need to retrigger my build manually each time?
