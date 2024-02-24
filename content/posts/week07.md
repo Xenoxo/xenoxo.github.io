@@ -3,7 +3,7 @@ title: "Week 07"
 date: 2024-02-24T15:38:43+01:00
 draft: false
 ---
-#Talk About Procrastination
+# Talk About Procrastination
 
 Not sure what it is but I keep pushing these out later and later. Had I not written this today well...it would have been actually a total miss.
 
@@ -13,7 +13,7 @@ Time seems to have a strange quality to it. When you move towards either ends of
 
 I'm observing this in myself as I continue to work on the game.
 
-#Game Updates
+# Game Updates
 This past week saw me trying to implement a simple "hit reaction" element to the zombie when the player shoots them.
 
 As you will see in the following video, the underlying basics are there, though with some hilarious results.
