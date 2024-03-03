@@ -23,3 +23,5 @@ As you will see in the following video, the underlying basics are there, though 
 Essentially I've got the underlying logic to work to create a change in the mesh driven by a player event. The next steps are to adjust the mesh angle to reflect what I am really going for.
 
 Now obviously as this post is almost a whole week late, I've since figured out how to do that (though not in an ideal way) however, that and more will be revealed next time.
+
+Here's to a more consistent schedule.

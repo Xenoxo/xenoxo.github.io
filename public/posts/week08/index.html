@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Week 08 | Fiftytwo Plus One</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Progress Admist The Chaos Long story short, I&rsquo;ve had one of the most insane weeks in recent memory. Work alone was bad enough but a number of other unforseen circumstances all perfectly aligned to ensure I had no time to work on my game.
+Despite it all, I&rsquo;ve managed to enough progress to complete a major piece of the game.
+Game Updates This week saw me completing the hit reaction piece for the zombie characters.">
+    <meta name="generator" content="Hugo 0.121.1">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://fiftytwoplusone.com/posts/week08/">
+    
+
+    <meta property="og:title" content="Week 08" />
+<meta property="og:description" content="Progress Admist The Chaos Long story short, I&rsquo;ve had one of the most insane weeks in recent memory. Work alone was bad enough but a number of other unforseen circumstances all perfectly aligned to ensure I had no time to work on my game.
+Despite it all, I&rsquo;ve managed to enough progress to complete a major piece of the game.
+Game Updates This week saw me completing the hit reaction piece for the zombie characters." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://fiftytwoplusone.com/posts/week08/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-03-02T13:31:23+01:00" />
+<meta property="article:modified_time" content="2024-03-02T13:31:23+01:00" />
+
+<meta itemprop="name" content="Week 08">
+<meta itemprop="description" content="Progress Admist The Chaos Long story short, I&rsquo;ve had one of the most insane weeks in recent memory. Work alone was bad enough but a number of other unforseen circumstances all perfectly aligned to ensure I had no time to work on my game.
+Despite it all, I&rsquo;ve managed to enough progress to complete a major piece of the game.
+Game Updates This week saw me completing the hit reaction piece for the zombie characters."><meta itemprop="datePublished" content="2024-03-02T13:31:23+01:00" />
+<meta itemprop="dateModified" content="2024-03-02T13:31:23+01:00" />
+<meta itemprop="wordCount" content="291">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Week 08"/>
+<meta name="twitter:description" content="Progress Admist The Chaos Long story short, I&rsquo;ve had one of the most insane weeks in recent memory. Work alone was bad enough but a number of other unforseen circumstances all perfectly aligned to ensure I had no time to work on my game.
+Despite it all, I&rsquo;ve managed to enough progress to complete a major piece of the game.
+Game Updates This week saw me completing the hit reaction piece for the zombie characters."/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Fiftytwo Plus One
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Week 08</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2024-03-02T13:31:23+01:00">March 2, 2024</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h1 id="progress-admist-the-chaos">Progress Admist The Chaos</h1>
+<p>Long story short, I&rsquo;ve had one of the most insane weeks in recent memory. Work alone was bad enough but a number of other unforseen circumstances all perfectly aligned to ensure I had no time to work on my game.</p>
+<p>Despite it all, I&rsquo;ve managed to enough progress to complete a major piece of the game.</p>
+<h1 id="game-updates">Game Updates</h1>
+<p>This week saw me completing the hit reaction piece for the zombie characters.</p>
+<p>Now when hit by a shot they&rsquo;ll react to it and with enough shots they&rsquo;ll die&hellip;and at least for now, with a pretty entertaining finish.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/7ZFiebGGFBY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>The hardest part of all of this was handling the specific interactions based on where I hit on the enemy character.</p>
+<p>At first I was handling this by adding a temporary rotational offset to the bone hit.</p>
+<p>However, on issue with this solution is that it becomes quite complicated with all the different bones. For instance hitting the head and having it &ldquo;tilt&rdquo; back 45 degrees looks good, however I would want a different degree for the chest and limbs. As with most things I&rsquo;m sure there&rsquo;s a smart way to handle this&hellip;but at my current level and need, I abandoned this idea in favor of the more common &ldquo;enable physics&rdquo; path.</p>
+<p>In short my solution is to enable physics specifically for that bone and child bones when hit. Additionally an impulse is applied in the direction of the bullet&rsquo;s path. Finally a blend takes place back to the animatuion over a second of so.</p>
+<p>This created a pretty good effect of the zombie&rsquo;s limbs reacting to the hit but not totally thrown out of their animation. Also I swapped out the gun sparks for blood which lends to the &ldquo;realism&rdquo;.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://fiftytwoplusone.com/" >
+    &copy;  Fiftytwo Plus One 2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
