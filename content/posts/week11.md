@@ -4,7 +4,7 @@ date: 2024-03-17T21:29:49+01:00
 draft: false
 ---
 
-# Refacoring
+# Refactoring
 So, this will be my first entry that's actually been on time in awhile.
 
 I spent the entire week refactoring the zombie enemy's blueprint logic into C++. Overall this was a straightforward process, what made it difficult is just figuring out some of the unique things that must be done in order to translate otherwise "simple" nodes into C++.
